@@ -1,4 +1,4 @@
-remote file "#{node['soapui']['path']}#{node['soapui']['tarname']}" do
+remote_file "#{node['soapui']['path']}#{node['soapui']['tarname']}" do
 	source node['soapui']['source']
 	owner 'root'
 	group 'root'
