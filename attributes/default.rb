@@ -2,3 +2,6 @@ default['soapui']['source'] = 'http://sourceforge.net/projects/soapui/files/soap
 default['soapui']['path'] = '/home/ubuntu/'
 default['soapui']['tarname'] = 'SoapUI-5.0.0-linux-bin.tar.gz'
 default['soapui']['extract'] = '/home/ubuntu/SoapUI-5.0.0'
+
+default['soapui']['user'] = 'root'
+default['soapui']['group'] = 'root'
